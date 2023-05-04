@@ -54,7 +54,8 @@ class LoginSystem(tk.Frame):
         scale_label.pack(padx=10, pady=10)
 
         # Create the close button
-        close_button = tk.Button(info_window, text="Close", command=info_window.destroy)
+        close_button = tk.Button(info_window, text="Close", command=info_window.destroy, bg="#2196f3", fg="white", font=("Helvetica", 14), padx=20, pady=10,
+                                      borderwidth=0, highlightthickness=0, relief='flat', activebackground='#2196f3')
         close_button.pack(pady=30)
 
 # Create the main window and run the application

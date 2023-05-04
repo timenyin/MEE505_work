@@ -75,7 +75,7 @@ class FruitGUI:
             leaf2 = self.canvas.create_polygon(120, 80, 130, 70, 110, 50, 100, 60, fill="green")
             self.canvas.tag_lower(leaf1, leaf2)
         else:
-            self.canvas.create_text(100, 100, text="Sorry, I don't know how to draw that fruit yet.")
+            self.canvas.create_text(100, 100, text="Fruit Diagram is not Available Yet.")
 
 
 
